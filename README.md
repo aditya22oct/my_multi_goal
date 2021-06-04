@@ -13,16 +13,14 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
    ```
    sudo apt-get install ros-melodic-turtlebot3 ros-melodic-turtlebot3-simulations ros-melodic-turtlebot3-teleop ros-melodic-turtlebot3-navigation ros-melodic-turtlebot3-slam ros-melodic-turtlebot3-msgs
    ```
-3. Create a folder name 'my_multi_goal_send' in the src directory of your catkin workspace. This folder will represent the package name. Clone the master branch of this repository   into newly created 'my_multi_goal_send' directory.
-
-4. Move all the file in the 'turtlebot3_multiple_goal_navigation' navigation into the 'my_multi_goal_send' directory.
-5.  Make the 'my_multi_goal_send.py' file executable.
+3. Go to catkin_ws/src directory and clone the master branch of this repository.
+4.  Make the 'my_multi_goal_send.py' file executable.
    ```
    cd 
    cd catkin_ws/src/my_multi_goal_send/src
    chmod +x my_multi_goal_send.py
    ```
-6. Build the node
+5. Build the node
    ```
    cd
    cd catkin_ws/
