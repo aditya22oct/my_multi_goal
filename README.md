@@ -57,5 +57,15 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
   nsecs: 0
 id: ''"
 ```
- 10. After completing the path the node will be killed/
+ 10. After completing the path the node will be killed.
+
+
+# Action used to send the goal
+
+'move_base' action is used to the goal.
+
+# Local Planner used
+
+'dwa_local planner' available in navigation stack is used.
+
 
