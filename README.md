@@ -68,4 +68,14 @@ id: ''"
 
 'dwa_local planner' available in navigation stack is used.
 
+# Screen recordings
 
+To watch the screen recording of how to launch the node.
+Go to link :- https://drive.google.com/drive/folders/1zszKkl6kruRTm_0rwMbncP1ofViButMI?usp=sharing
+
+2 screen recordings are available one without goal cancellation and one with the goal cancellation.
+
+# Creation map
+
+Map is created using turtlebot3_slam.launch available in turblebot3_slam package and method used is slam_gmapping.
+Here map of turtlebot3_world is already provided.
