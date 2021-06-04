@@ -11,4 +11,5 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
    ```
    sudo apt-get install ros-melodic-turtlebot3 ros-melodic-turtlebot3-simulations ros-melodic-turtlebot3-teleop ros-melodic-turtlebot3-navigation ros-melodic-turtlebot3-slam ros-melodic-turtlebot3-msgs
    ```
+3.
 
