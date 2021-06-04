@@ -38,13 +38,13 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
     roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
     ```
  3. Open new terminal window and launch the turtlebot3_teleop_key.launch file
-   ```
-   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-   ```
+    ```
+    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+    ```
  4. Now move the robot in the map and you can visulize in RViz the map which robot creates after moving. Once all the area is covered save the map using following command.
-   ```
-   rosrun map_server map_saver -f ~/map
-   ```
+    ```
+    rosrun map_server map_saver -f ~/map
+    ```
  5. Map will be saved now.
  
  
