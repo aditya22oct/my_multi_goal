@@ -16,21 +16,36 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
 3. Create a folder name 'my_multi_goal_send' in the src directory of your catkin workspace. This folder will represent the package name. Clone the master branch of this repository   into newly created 'my_multi_goal_send' directory.
 
 4. Move all the file in the 'turtlebot3_multiple_goal_navigation' navigation into the 'my_multi_goal_send' directory.
-5.  Move the map.pgm and map.yaml file to the directory 'maps'directory of 'turtlebot3_navigation' package. (path:- /opt/ros/melodic/share/turtlebot3_navigation/maps)
-6.  Make the 'my_multi_goal_send.py' file executable.
+5.  Make the 'my_multi_goal_send.py' file executable.
    ```
    cd 
    cd catkin_ws/src/my_multi_goal_send/src
    chmod +x my_multi_goal_send.py
    ```
-7. Build the node
+6. Build the node
    ```
    cd
    cd catkin_ws/
    catkin_make
    source devel/setup.bash
    ```
+ # How to create a map?
  
+ 1. First open the new terminal window and launch turtlebot3_world.launch
+    ```
+    
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+    ```
+ 2. Then in a new terminal window launch the following command
+    ```
+    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+    ```
+ 3. Open new terminal window and launch the turtlebot3_teleop_key.launch file
+   ```
+   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+   ```
+ 5. Now move the robot in the map and you can visulize in RViz the map which robot creates after moving. Once all the area is covered save the map using following command.
+ 6.
  # How to run the node?
  
  1. Open the terminal window the run roscore command.
