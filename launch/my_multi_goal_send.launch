@@ -1,6 +1,6 @@
 <launch>
 
-  <node pkg="my_multi_goal_send" type="my_multi_goal_send.py" name="my_multi_goal_send"  output="screen">
+  <node pkg="my_multi_goal" type="my_multi_goal_send.py" name="my_multi_goal_send"  output="screen">
   </node>
   
 </launch>
