@@ -94,7 +94,7 @@ Go to link :- https://drive.google.com/drive/folders/1zszKkl6kruRTm_0rwMbncP1ofV
 
 2 screen recordings are available one without goal cancellation and one with the goal cancellation.
 
-# Creation map
+# For creation of map
 
 Map is created using turtlebot3_slam.launch available in turblebot3_slam package and method used is slam_gmapping.
 Here map of turtlebot3_world is already provided.
