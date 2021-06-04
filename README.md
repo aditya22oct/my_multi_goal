@@ -28,5 +28,32 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
    catkin_make
    source devel/setup.bash
    ```
-
+ 
+ # How to run the node?
+ 
+ 1. Open the terminal window the run roscore command.
+    ```
+    roscore
+    ```
+ 2. Open new terminal window and launch the turtlebot3_world.launch
+    ```
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+    ```
+ 4. Now open the new terminal window and launch the turtlebot3_navigation.launch
+    ```
+    roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+    ```
+ 6. Now the rviz window will open and localize the robot using the "2D Pose Estimate" available on the top. This will be consider as the initial spawn position of the robot i.e.     when the turtlebot3_world.lauch file will be launched.
+ 7. Now inorder to run the node "my_multi_goal_send" run following command in the new terminal window.
+    ```
+    roslaunch my_multi_goal_send my_multi_goal_send.launch
+    ```
+ 9. In case you want to cancel the goal and move the robot to its inital spawn position open a new terminal window and run the following command.
+```
+    rostopic pub /move_base/cancel actionlib_msgs/GoalID "stamp:
+  secs: 0
+  nsecs: 0
+id: ''"
+```
+ 10. After completing the path the node will be killed/
 
