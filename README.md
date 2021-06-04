@@ -22,11 +22,11 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
    chmod +x my_multi_goal_send.py
    ```
 9. Build the node
-   '''
+   ```
    cd
    cd catkin_ws/
    catkin_make
    source devel/setup.bash
-   '''
+   ```
 
 
