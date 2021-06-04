@@ -33,7 +33,6 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
  
  1. First open the new terminal window and launch turtlebot3_world.launch
     ```
-    
     roslaunch turtlebot3_gazebo turtlebot3_world.launch
     ```
  2. Then in a new terminal window launch the following command
@@ -44,8 +43,13 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
    ```
    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
    ```
- 5. Now move the robot in the map and you can visulize in RViz the map which robot creates after moving. Once all the area is covered save the map using following command.
- 6.
+ 4. Now move the robot in the map and you can visulize in RViz the map which robot creates after moving. Once all the area is covered save the map using following command.
+   ```
+   rosrun map_server map_saver -f ~/map
+   ```
+ 5. Map will be saved now.
+ 
+ 
  # How to run the node?
  
  1. Open the terminal window the run roscore command.
