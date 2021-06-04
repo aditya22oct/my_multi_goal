@@ -96,3 +96,9 @@ Go to link :- https://drive.google.com/drive/folders/1zszKkl6kruRTm_0rwMbncP1ofV
 
 Map is created using turtlebot3_slam.launch available in turblebot3_slam package and method used is slam_gmapping.
 Here map of turtlebot3_world is already provided.
+
+# Note
+
+You can modify the goals by change the values in the list of goal (Please check the python file) and also add the new goals if required.
+If your are using different map, please modify the goal positions and orientation accordingly.
+The above goal positions mentioned in the python script will work for the turtlebot3_world.
