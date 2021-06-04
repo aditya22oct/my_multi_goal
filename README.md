@@ -1,4 +1,4 @@
-# turtlebot3_multiple_goal_navigatiion
+# my_multi_goal_send
 This repository is created to send the list of desired goals to robot in robots "map" co-ordinate system using navigation stack of ROS.
 
 # About the node
