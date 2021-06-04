@@ -7,8 +7,8 @@ The "my_multi_goal_send" node send the list of goals specified in the robots "ma
 # How to install the node
 
 1. For this node ROS Melodic Version is used and progamming langauge python is used
-2. In order to run the node, you should have turtlebot3_gazebo turtlebot3_simulation turtlebot3_navigation turtlebot3_teleop turtlebot3_slam and turtlebot3_msgs packages install.
+2. In order to run the node, you should have turtlebot3_gazebo, turtlebot3_simulation, turtlebot3_navigation, turtlebot3_teleop, turtlebot3_slam and turtlebot3_msgs packages install.
    ```
-   sudo apt-get install ros-noetic-turtlebot3 ros-noetic-turtlebot3-simulations ros-noetic-turtlebot3-teleop
+   sudo apt-get install ros-melodic-turtlebot3 ros-melodic-turtlebot3-simulations ros-melodic-turtlebot3-teleop ros-melodic-turtlebot3-navigation ros-melodic-turtlebot3-slam ros-melodic-turtlebot3-msgs
    ```
 
